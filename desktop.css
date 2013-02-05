@@ -1,15 +1,17 @@
 body{background-color:#FFFFCC;}
 
-h1{color: black; font-size:40px; font-family: georgia; display:inline;
+h1{color: black; font-size:40px; font-family: georgia; 
 border-style:dashed; border-color:#00CC66; 
 background-color:white; border-radius:10px;
-padding:3px;}
+padding:3px; text-align:center;}
 
-h2{color: black; font-size:30px; font-family: georgia; }
+h2{color: black; font-size:30px; font-family: georgia; text-align:center;}
 
 .embolden{color:black; font-size:20px; font-family:arial; font-weight:bold;}
 
 .italicize{color:black; font-size:20px; font-family:arial; font-style:italic;}
+
+#caption{color:black; font-size:10px; font-family:arial; font-style:italic; text-align:center;}
 
 p,ul{color: black; font-size:20px; font-family:arial;
 border-style:solid; border-color:#00CC66; 
@@ -17,5 +19,10 @@ background-color:white; border-radius:10px;}
 
 p{padding:5px;}
 
-img{display:inline;border-style:solid; border-width: 3px; 
-border-color:black; border-radius:30px;}
+img{display:block;border-style:solid; border-width: 3px; 
+border-color:black; border-radius:30px; margin-left:auto; margin-right:auto;}
+
+#link {color:black; font-size:30px; font-family:arial; 
+background-color: white; display:inline; 
+border-style:solid; border-color:black;
+position:fixed; bottom:2%; right:2%;}
